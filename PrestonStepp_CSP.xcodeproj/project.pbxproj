@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A08F68A61FA2223800A0BACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68A51FA2223800A0BACE /* AppDelegate.swift */; };
+		A08F68A81FA2223800A0BACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68A71FA2223800A0BACE /* ViewController.swift */; };
+		A08F68AB1FA2223800A0BACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08F68A91FA2223800A0BACE /* Main.storyboard */; };
+		A08F68AD1FA2223800A0BACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08F68AC1FA2223800A0BACE /* Assets.xcassets */; };
+		A08F68B01FA2223800A0BACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */; };
+		A08F68BB1FA2223800A0BACE /* PrestonStepp_CSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */; };
+		A08F68C61FA2223800A0BACE /* PrestonStepp_CSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68C51FA2223800A0BACE /* PrestonStepp_CSPUITests.swift */; };
+		A08F68D41FA223CD00A0BACE /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */; };
+		A08F68D61FA223EE00A0BACE /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */; };
+		A08F68D81FA2242E00A0BACE /* DataAndInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */; };
+		A08F68DA1FA2245F00A0BACE /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */; };
+		A08F68DC1FA2246C00A0BACE /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */; };
+		A08F68DE1FA2248600A0BACE /* TheInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */; };
+		A08F68E01FA2249C00A0BACE /* GlobalmpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A08F68B71FA2223800A0BACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08F689A1FA2223800A0BACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08F68A11FA2223800A0BACE;
+			remoteInfo = PrestonStepp_CSP;
+		};
+		A08F68C21FA2223800A0BACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08F689A1FA2223800A0BACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08F68A11FA2223800A0BACE;
+			remoteInfo = PrestonStepp_CSP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A08F68A21FA2223800A0BACE /* PrestonStepp_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrestonStepp_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08F68A51FA2223800A0BACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A08F68A71FA2223800A0BACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A08F68AA1FA2223800A0BACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A08F68AC1FA2223800A0BACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A08F68AF1FA2223800A0BACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A08F68B11FA2223800A0BACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08F68B61FA2223800A0BACE /* PrestonStepp_CSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonStepp_CSPTests.swift; sourceTree = "<group>"; };
+		A08F68BC1FA2223800A0BACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08F68C51FA2223800A0BACE /* PrestonStepp_CSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonStepp_CSPUITests.swift; sourceTree = "<group>"; };
+		A08F68C71FA2223800A0BACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
+		A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
+		A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetViewController.swift; sourceTree = "<group>"; };
+		A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A08F689F1FA2223800A0BACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08F68B31FA2223800A0BACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08F68BE1FA2223800A0BACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A08F68991FA2223800A0BACE = {
+			isa = PBXGroup;
+			children = (
+				A08F68A41FA2223800A0BACE /* PrestonStepp_CSP */,
+				A08F68B91FA2223800A0BACE /* PrestonStepp_CSPTests */,
+				A08F68C41FA2223800A0BACE /* PrestonStepp_CSPUITests */,
+				A08F68A31FA2223800A0BACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A08F68A31FA2223800A0BACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08F68A21FA2223800A0BACE /* PrestonStepp_CSP.app */,
+				A08F68B61FA2223800A0BACE /* PrestonStepp_CSPTests.xctest */,
+				A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A08F68A41FA2223800A0BACE /* PrestonStepp_CSP */ = {
+			isa = PBXGroup;
+			children = (
+				A08F68A51FA2223800A0BACE /* AppDelegate.swift */,
+				A08F68A71FA2223800A0BACE /* ViewController.swift */,
+				A08F68A91FA2223800A0BACE /* Main.storyboard */,
+				A08F68AC1FA2223800A0BACE /* Assets.xcassets */,
+				A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */,
+				A08F68B11FA2223800A0BACE /* Info.plist */,
+				A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */,
+				A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */,
+				A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */,
+				A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */,
+				A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */,
+				A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */,
+				A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */,
+			);
+			path = PrestonStepp_CSP;
+			sourceTree = "<group>";
+		};
+		A08F68B91FA2223800A0BACE /* PrestonStepp_CSPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */,
+				A08F68BC1FA2223800A0BACE /* Info.plist */,
+			);
+			path = PrestonStepp_CSPTests;
+			sourceTree = "<group>";
+		};
+		A08F68C41FA2223800A0BACE /* PrestonStepp_CSPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A08F68C51FA2223800A0BACE /* PrestonStepp_CSPUITests.swift */,
+				A08F68C71FA2223800A0BACE /* Info.plist */,
+			);
+			path = PrestonStepp_CSPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A08F68A11FA2223800A0BACE /* PrestonStepp_CSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08F68CA1FA2223800A0BACE /* Build configuration list for PBXNativeTarget "PrestonStepp_CSP" */;
+			buildPhases = (
+				A08F689E1FA2223800A0BACE /* Sources */,
+				A08F689F1FA2223800A0BACE /* Frameworks */,
+				A08F68A01FA2223800A0BACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrestonStepp_CSP;
+			productName = PrestonStepp_CSP;
+			productReference = A08F68A21FA2223800A0BACE /* PrestonStepp_CSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A08F68B51FA2223800A0BACE /* PrestonStepp_CSPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08F68CD1FA2223800A0BACE /* Build configuration list for PBXNativeTarget "PrestonStepp_CSPTests" */;
+			buildPhases = (
+				A08F68B21FA2223800A0BACE /* Sources */,
+				A08F68B31FA2223800A0BACE /* Frameworks */,
+				A08F68B41FA2223800A0BACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08F68B81FA2223800A0BACE /* PBXTargetDependency */,
+			);
+			name = PrestonStepp_CSPTests;
+			productName = PrestonStepp_CSPTests;
+			productReference = A08F68B61FA2223800A0BACE /* PrestonStepp_CSPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A08F68C01FA2223800A0BACE /* PrestonStepp_CSPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08F68D01FA2223800A0BACE /* Build configuration list for PBXNativeTarget "PrestonStepp_CSPUITests" */;
+			buildPhases = (
+				A08F68BD1FA2223800A0BACE /* Sources */,
+				A08F68BE1FA2223800A0BACE /* Frameworks */,
+				A08F68BF1FA2223800A0BACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08F68C31FA2223800A0BACE /* PBXTargetDependency */,
+			);
+			name = PrestonStepp_CSPUITests;
+			productName = PrestonStepp_CSPUITests;
+			productReference = A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08F689A1FA2223800A0BACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = CTEC;
+				TargetAttributes = {
+					A08F68A11FA2223800A0BACE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A08F68B51FA2223800A0BACE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A08F68A11FA2223800A0BACE;
+					};
+					A08F68C01FA2223800A0BACE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A08F68A11FA2223800A0BACE;
+					};
+				};
+			};
+			buildConfigurationList = A08F689D1FA2223800A0BACE /* Build configuration list for PBXProject "PrestonStepp_CSP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A08F68991FA2223800A0BACE;
+			productRefGroup = A08F68A31FA2223800A0BACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08F68A11FA2223800A0BACE /* PrestonStepp_CSP */,
+				A08F68B51FA2223800A0BACE /* PrestonStepp_CSPTests */,
+				A08F68C01FA2223800A0BACE /* PrestonStepp_CSPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08F68A01FA2223800A0BACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F68B01FA2223800A0BACE /* LaunchScreen.storyboard in Resources */,
+				A08F68AD1FA2223800A0BACE /* Assets.xcassets in Resources */,
+				A08F68AB1FA2223800A0BACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08F68B41FA2223800A0BACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08F68BF1FA2223800A0BACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A08F689E1FA2223800A0BACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F68A81FA2223800A0BACE /* ViewController.swift in Sources */,
+				A08F68DC1FA2246C00A0BACE /* ProgrammingViewController.swift in Sources */,
+				A08F68A61FA2223800A0BACE /* AppDelegate.swift in Sources */,
+				A08F68DE1FA2248600A0BACE /* TheInternetViewController.swift in Sources */,
+				A08F68E01FA2249C00A0BACE /* GlobalmpactViewController.swift in Sources */,
+				A08F68D41FA223CD00A0BACE /* CreativityViewController.swift in Sources */,
+				A08F68D81FA2242E00A0BACE /* DataAndInformationViewController.swift in Sources */,
+				A08F68DA1FA2245F00A0BACE /* AlgorithmsViewController.swift in Sources */,
+				A08F68D61FA223EE00A0BACE /* AbstractionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08F68B21FA2223800A0BACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F68BB1FA2223800A0BACE /* PrestonStepp_CSPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08F68BD1FA2223800A0BACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F68C61FA2223800A0BACE /* PrestonStepp_CSPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A08F68B81FA2223800A0BACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08F68A11FA2223800A0BACE /* PrestonStepp_CSP */;
+			targetProxy = A08F68B71FA2223800A0BACE /* PBXContainerItemProxy */;
+		};
+		A08F68C31FA2223800A0BACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08F68A11FA2223800A0BACE /* PrestonStepp_CSP */;
+			targetProxy = A08F68C21FA2223800A0BACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A08F68A91FA2223800A0BACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08F68AA1FA2223800A0BACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08F68AF1FA2223800A0BACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A08F68C81FA2223800A0BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A08F68C91FA2223800A0BACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A08F68CB1FA2223800A0BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonStepp_CSP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08F68CC1FA2223800A0BACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonStepp_CSP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A08F68CE1FA2223800A0BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonStepp_CSPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrestonStepp_CSP.app/PrestonStepp_CSP";
+			};
+			name = Debug;
+		};
+		A08F68CF1FA2223800A0BACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonStepp_CSPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrestonStepp_CSP.app/PrestonStepp_CSP";
+			};
+			name = Release;
+		};
+		A08F68D11FA2223800A0BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonStepp_CSPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrestonStepp_CSP;
+			};
+			name = Debug;
+		};
+		A08F68D21FA2223800A0BACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonStepp_CSPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrestonStepp_CSP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08F689D1FA2223800A0BACE /* Build configuration list for PBXProject "PrestonStepp_CSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08F68C81FA2223800A0BACE /* Debug */,
+				A08F68C91FA2223800A0BACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08F68CA1FA2223800A0BACE /* Build configuration list for PBXNativeTarget "PrestonStepp_CSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08F68CB1FA2223800A0BACE /* Debug */,
+				A08F68CC1FA2223800A0BACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08F68CD1FA2223800A0BACE /* Build configuration list for PBXNativeTarget "PrestonStepp_CSPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08F68CE1FA2223800A0BACE /* Debug */,
+				A08F68CF1FA2223800A0BACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08F68D01FA2223800A0BACE /* Build configuration list for PBXNativeTarget "PrestonStepp_CSPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08F68D11FA2223800A0BACE /* Debug */,
+				A08F68D21FA2223800A0BACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A08F689A1FA2223800A0BACE /* Project object */;
+}
