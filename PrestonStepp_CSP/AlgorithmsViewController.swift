@@ -30,7 +30,7 @@ private func setupAlgorithm() -> Void
     
     for step in algorithmSteps
     {
-        let bullet :String = ""
+        let bullet :String = "🏎"
         let formattedStep :String = "\n\(bullet) \(step)"
         let attributedStringStep :NSMutableAttributedString(string:formattedStep)
         let paragraphStyle = createParagraphStyle()
@@ -60,3 +60,4 @@ private func setupAlgorithm() -> Void
         }
     }
 }
+
