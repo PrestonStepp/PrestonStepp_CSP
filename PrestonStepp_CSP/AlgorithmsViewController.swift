@@ -32,7 +32,7 @@ private func setupAlgorithm() -> Void
     {
         let bullet :String = "🏎"
         let formattedStep :String = "\n\(bullet) \(step)"
-        let attributedStringStep :NSMutableAttributedString(string:formattedStep)
+        let attributedStringStep = NSMutableAttributedString(string:formattedStep)
         let paragraphStyle = createParagraphStyle()
         
         attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : paragraphStyle], range: NSMakeRange(0,attributedStringStep.length))
