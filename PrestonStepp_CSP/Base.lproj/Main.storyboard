@@ -73,7 +73,7 @@
         <!--View Controller-->
         <scene sceneID="h4j-kb-hkP">
             <objects>
-                <viewController id="xCU-W0-Adg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" id="xCU-W0-Adg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KBi-P5-fXg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,7 +108,7 @@
         <!--View Controller-->
         <scene sceneID="akd-1k-qaS">
             <objects>
-                <viewController id="NRk-0z-i0K" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JavaViewController" id="NRk-0z-i0K" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gPY-8a-DAq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,7 +143,7 @@
         <!--View Controller-->
         <scene sceneID="SuY-hc-lTf">
             <objects>
-                <viewController id="5Or-Hu-BAm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ByteCodeViewController" id="5Or-Hu-BAm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bcR-xC-GJK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +162,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2fE-1B-sCm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swiftSample" translatesAutoresizingMaskIntoConstraints="NO" id="2fE-1B-sCm">
                                 <rect key="frame" x="67" y="519" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -178,7 +178,7 @@
         <!--View Controller-->
         <scene sceneID="e7H-Xo-PfH">
             <objects>
-                <viewController id="rIu-H1-B0w" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" id="rIu-H1-B0w" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2q2-vE-OR9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +213,7 @@
         <!--View Controller-->
         <scene sceneID="Jrf-6X-rAv">
             <objects>
-                <viewController id="yak-sR-6hB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AndGateViewController" id="yak-sR-6hB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D10-sF-YVd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
