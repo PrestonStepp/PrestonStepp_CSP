@@ -92,4 +92,22 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
         
         return orderedAbstractionViews[nextIndex]
     }
+    
+    //MARK:- Support for dots in the UIPageViewController
+    
+    public func presentationCount(for pageViewCtroller: UIPageViewController) -> Int
+    {
+        return orderedAbstractionViews.count
+    }
+    
+    public func presentationIndex(for pageViewCntroller: UIPageViewController) -> Int
+    {
+        guard let firstViewController = viewControllers?.first, let firstViewControllerIndex = orderedAbstractionViews.index(of: firstViewController)
+        else
+        {
+            return 0
+        }
+        
+        return firstViewControllerIndex
+    }
 }
