@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import WebKit
+
 public class AlgorithmsViewController: UIViewController
 {
     @IBOutlet weak var algorithmText: UILabel!
