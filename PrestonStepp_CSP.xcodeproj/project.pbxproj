@@ -22,6 +22,7 @@
 		A08F68DE1FA2248600A0BACE /* TheInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */; };
 		A08F68E01FA2249C00A0BACE /* GlobalmpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */; };
 		A0ABE86C1FC32A6E00FC240E /* Accessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABE86B1FC32A6E00FC240E /* Accessable.swift */; };
+		A0FFE4401FCF0B2C000B1BE7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetViewController.swift; sourceTree = "<group>"; };
 		A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactViewController.swift; sourceTree = "<group>"; };
 		A0ABE86B1FC32A6E00FC240E /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
+		A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FFE4401FCF0B2C000B1BE7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 				A08F68B91FA2223800A0BACE /* PrestonStepp_CSPTests */,
 				A08F68C41FA2223800A0BACE /* PrestonStepp_CSPUITests */,
 				A08F68A31FA2223800A0BACE /* Products */,
+				A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +159,14 @@
 				A0ABE86B1FC32A6E00FC240E /* Accessable.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

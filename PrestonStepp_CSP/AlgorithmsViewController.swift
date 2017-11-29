@@ -27,7 +27,7 @@ private func setupAlgorithm() -> Void
 
     algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive]
     
-    let attributesDictonary = [NSAttributedStringKey.font : algorithmText.font]
+    let attributesDictonary = [NSAttributedStringKey.font : algorithmSteps.font]
     let fullAttributdString = NSMutableAttributedString(string: algorithm, attributes: attributesDictonary)
     
     for step in algorithmSteps
