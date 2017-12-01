@@ -12,7 +12,6 @@ import WebKit
 public class AlgorithmsViewController: UIViewController
 {
     @IBOutlet weak var algorithmText: UILabel!
-    
 }
 private func setupAlgorithm() -> Void
 {
@@ -62,4 +61,5 @@ private func setupAlgorithm() -> Void
         }
     }
 }
+
 
