@@ -57,5 +57,29 @@ var largePhotoIndexPath: IndexPath?
     
         return artCell
     }
+    
+    //MARK:- Delegate methods
+    
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
+        sizeForItemAt indexPath: IndexPath) -> CGSize {
+    
+    if indexPath == largePhotoIndexPath
+    {
+        let art = artSelection[indexPat.row]
+        let size = collectionView.bounds.size
+        let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
+        let largeSize = CGSize(width: art!/sixe.width * widthScale, height: art!.size.width * widthScale)
+    
+        return largeSize
+    }
+    
+    let paddingSpace = sectionInserts.left * (itemsPerRow + 1)
+    let availableWidth = view.frame.width - paddingSpace
+    let widthPerItem = availableWidth / itemsPerRow
+    
+    return CGSize(width: widthPerItem, height: widthPerItem)
+    }
+
+    }
 
 }
