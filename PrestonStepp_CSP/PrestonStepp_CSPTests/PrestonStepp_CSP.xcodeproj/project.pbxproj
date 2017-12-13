@@ -101,13 +101,13 @@
 		A0B313101FE182B100EAEE27 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A0B3131E1FE182E400EAEE27 /* GameController */,
 				A0B3131D1FE182C500EAEE27 /* AbstractionViewController.swift */,
 				A0B313181FE182C500EAEE27 /* AlgorithmsViewController.swift */,
 				A0B313111FE182C500EAEE27 /* AppDelegate.swift */,
 				A0B313161FE182C500EAEE27 /* CreativityViewController.swift */,
 				A0B313151FE182C500EAEE27 /* DataAndInformationViewController.swift */,
 				A0B3131F1FE1830D00EAEE27 /* Accessable.swift */,
-				A0B3131E1FE182E400EAEE27 /* GameController */,
 				A0B313121FE182C500EAEE27 /* GlobalmpactViewController.swift */,
 				A0B313141FE182C500EAEE27 /* ProgrammingViewController.swift */,
 				A0B3131C1FE182C500EAEE27 /* TheInternetViewController.swift */,
