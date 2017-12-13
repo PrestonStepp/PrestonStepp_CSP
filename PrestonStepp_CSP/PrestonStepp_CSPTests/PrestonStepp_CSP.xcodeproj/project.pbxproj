@@ -7,23 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A08F68A61FA2223800A0BACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68A51FA2223800A0BACE /* AppDelegate.swift */; };
-		A08F68A81FA2223800A0BACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68A71FA2223800A0BACE /* ViewController.swift */; };
-		A08F68AB1FA2223800A0BACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08F68A91FA2223800A0BACE /* Main.storyboard */; };
-		A08F68AD1FA2223800A0BACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08F68AC1FA2223800A0BACE /* Assets.xcassets */; };
-		A08F68B01FA2223800A0BACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */; };
-		A08F68BB1FA2223800A0BACE /* PrestonStepp_CSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */; };
-		A08F68C61FA2223800A0BACE /* PrestonStepp_CSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68C51FA2223800A0BACE /* PrestonStepp_CSPUITests.swift */; };
-		A08F68D41FA223CD00A0BACE /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */; };
-		A08F68D61FA223EE00A0BACE /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */; };
-		A08F68D81FA2242E00A0BACE /* DataAndInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */; };
-		A08F68DA1FA2245F00A0BACE /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */; };
-		A08F68DC1FA2246C00A0BACE /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */; };
-		A08F68DE1FA2248600A0BACE /* TheInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */; };
-		A08F68E01FA2249C00A0BACE /* GlobalmpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */; };
-		A0ABE86C1FC32A6E00FC240E /* Accessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABE86B1FC32A6E00FC240E /* Accessable.swift */; };
-		A0AF45311FD9A70400FA024D /* DawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AF45301FD9A70400FA024D /* DawingView.swift */; };
-		A0B618ED1FE1765A00D73857 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = A0B618EC1FE1765A00D73857 /* GameController */; };
+		A0B313061FE17CCF00EAEE27 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = A0B312FD1FE17CCE00EAEE27 /* Controller */; };
+		A0B313071FE17CCF00EAEE27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0B312FE1FE17CCE00EAEE27 /* Info.plist */; };
+		A0B313081FE17CCF00EAEE27 /* PrestonStepp_CSPTests in Resources */ = {isa = PBXBuildFile; fileRef = A0B312FF1FE17CCE00EAEE27 /* PrestonStepp_CSPTests */; };
+		A0B313091FE17CCF00EAEE27 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = A0B313001FE17CCE00EAEE27 /* StarField.sks */; };
+		A0B3130A1FE17CCF00EAEE27 /* PrestonStepp_CSP in Resources */ = {isa = PBXBuildFile; fileRef = A0B313011FE17CCE00EAEE27 /* PrestonStepp_CSP */; };
+		A0B3130B1FE17CCF00EAEE27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B313021FE17CCF00EAEE27 /* Utilities.swift */; };
+		A0B3130C1FE17CCF00EAEE27 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A0B313031FE17CCF00EAEE27 /* Model */; };
+		A0B3130D1FE17CCF00EAEE27 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = A0B313041FE17CCF00EAEE27 /* GameController */; };
+		A0B3130E1FE17CCF00EAEE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B313051FE17CCF00EAEE27 /* Assets.xcassets */; };
 		A0FFE4401FCF0B2C000B1BE7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,29 +38,17 @@
 
 /* Begin PBXFileReference section */
 		A08F68A21FA2223800A0BACE /* PrestonStepp_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrestonStepp_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A08F68A51FA2223800A0BACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A08F68A71FA2223800A0BACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A08F68AA1FA2223800A0BACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A08F68AC1FA2223800A0BACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A08F68AF1FA2223800A0BACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A08F68B11FA2223800A0BACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A08F68B61FA2223800A0BACE /* PrestonStepp_CSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonStepp_CSPTests.swift; sourceTree = "<group>"; };
-		A08F68BC1FA2223800A0BACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A08F68C51FA2223800A0BACE /* PrestonStepp_CSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonStepp_CSPUITests.swift; sourceTree = "<group>"; };
-		A08F68C71FA2223800A0BACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
-		A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
-		A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
-		A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
-		A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetViewController.swift; sourceTree = "<group>"; };
-		A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactViewController.swift; sourceTree = "<group>"; };
-		A0ABE86B1FC32A6E00FC240E /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
-		A0AF45301FD9A70400FA024D /* DawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawingView.swift; sourceTree = "<group>"; };
-		A0B618EC1FE1765A00D73857 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
-		A0B618EE1FE1778700D73857 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = /Users/pste9009/Documents/PrestonStepp_CSP/PrestonStepp_CSPTests/Sounds; sourceTree = "<absolute>"; };
+		A0B312FD1FE17CCE00EAEE27 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controller; path = ../Controller; sourceTree = "<group>"; };
+		A0B312FE1FE17CCE00EAEE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		A0B312FF1FE17CCE00EAEE27 /* PrestonStepp_CSPTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PrestonStepp_CSPTests; sourceTree = "<group>"; };
+		A0B313001FE17CCE00EAEE27 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = StarField.sks; path = ../StarField.sks; sourceTree = "<group>"; };
+		A0B313011FE17CCE00EAEE27 /* PrestonStepp_CSP */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PrestonStepp_CSP; path = ../PrestonStepp_CSP; sourceTree = "<group>"; };
+		A0B313021FE17CCF00EAEE27 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../Utilities.swift; sourceTree = "<group>"; };
+		A0B313031FE17CCF00EAEE27 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../Model; sourceTree = "<group>"; };
+		A0B313041FE17CCF00EAEE27 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameController; path = ../GameController; sourceTree = "<group>"; };
+		A0B313051FE17CCF00EAEE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -98,38 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A02C62351FE177FB009E2C52 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A08F68A91FA2223800A0BACE /* Main.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A054C54D1FE174580007A88E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A0B618EC1FE1765A00D73857 /* GameController */,
-				A08F68A51FA2223800A0BACE /* AppDelegate.swift */,
-				A08F68A71FA2223800A0BACE /* ViewController.swift */,
-				A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */,
-				A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */,
-				A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */,
-				A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */,
-				A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */,
-				A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */,
-				A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */,
-				A0AF45301FD9A70400FA024D /* DawingView.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		A08F68991FA2223800A0BACE = {
 			isa = PBXGroup;
 			children = (
-				A08F68A41FA2223800A0BACE /* PrestonStepp_CSP */,
-				A08F68B91FA2223800A0BACE /* PrestonStepp_CSPTests */,
-				A08F68C41FA2223800A0BACE /* PrestonStepp_CSPUITests */,
+				A0B313051FE17CCF00EAEE27 /* Assets.xcassets */,
+				A0B312FD1FE17CCE00EAEE27 /* Controller */,
+				A0B313041FE17CCF00EAEE27 /* GameController */,
+				A0B312FE1FE17CCE00EAEE27 /* Info.plist */,
+				A0B313031FE17CCF00EAEE27 /* Model */,
+				A0B313011FE17CCE00EAEE27 /* PrestonStepp_CSP */,
+				A0B312FF1FE17CCE00EAEE27 /* PrestonStepp_CSPTests */,
+				A0B313001FE17CCE00EAEE27 /* StarField.sks */,
+				A0B313021FE17CCF00EAEE27 /* Utilities.swift */,
 				A08F68A31FA2223800A0BACE /* Products */,
 				A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */,
 			);
@@ -143,46 +103,6 @@
 				A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A08F68A41FA2223800A0BACE /* PrestonStepp_CSP */ = {
-			isa = PBXGroup;
-			children = (
-				A054C54D1FE174580007A88E /* Controller */,
-				A0ABE86A1FC329E700FC240E /* Model */,
-				A02C62351FE177FB009E2C52 /* View */,
-				A08F68AC1FA2223800A0BACE /* Assets.xcassets */,
-				A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */,
-				A08F68B11FA2223800A0BACE /* Info.plist */,
-			);
-			path = PrestonStepp_CSP;
-			sourceTree = "<group>";
-		};
-		A08F68B91FA2223800A0BACE /* PrestonStepp_CSPTests */ = {
-			isa = PBXGroup;
-			children = (
-				A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */,
-				A08F68BC1FA2223800A0BACE /* Info.plist */,
-				A0B618EE1FE1778700D73857 /* Sounds */,
-			);
-			path = PrestonStepp_CSPTests;
-			sourceTree = "<group>";
-		};
-		A08F68C41FA2223800A0BACE /* PrestonStepp_CSPUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A08F68C51FA2223800A0BACE /* PrestonStepp_CSPUITests.swift */,
-				A08F68C71FA2223800A0BACE /* Info.plist */,
-			);
-			path = PrestonStepp_CSPUITests;
-			sourceTree = "<group>";
-		};
-		A0ABE86A1FC329E700FC240E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A0ABE86B1FC32A6E00FC240E /* Accessable.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */ = {
@@ -300,10 +220,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B618ED1FE1765A00D73857 /* GameController in Resources */,
-				A08F68B01FA2223800A0BACE /* LaunchScreen.storyboard in Resources */,
-				A08F68AD1FA2223800A0BACE /* Assets.xcassets in Resources */,
-				A08F68AB1FA2223800A0BACE /* Main.storyboard in Resources */,
+				A0B3130C1FE17CCF00EAEE27 /* Model in Resources */,
+				A0B3130A1FE17CCF00EAEE27 /* PrestonStepp_CSP in Resources */,
+				A0B313061FE17CCF00EAEE27 /* Controller in Resources */,
+				A0B3130E1FE17CCF00EAEE27 /* Assets.xcassets in Resources */,
+				A0B313081FE17CCF00EAEE27 /* PrestonStepp_CSPTests in Resources */,
+				A0B3130D1FE17CCF00EAEE27 /* GameController in Resources */,
+				A0B313091FE17CCF00EAEE27 /* StarField.sks in Resources */,
+				A0B313071FE17CCF00EAEE27 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,17 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08F68A81FA2223800A0BACE /* ViewController.swift in Sources */,
-				A08F68DC1FA2246C00A0BACE /* ProgrammingViewController.swift in Sources */,
-				A0AF45311FD9A70400FA024D /* DawingView.swift in Sources */,
-				A08F68A61FA2223800A0BACE /* AppDelegate.swift in Sources */,
-				A08F68DE1FA2248600A0BACE /* TheInternetViewController.swift in Sources */,
-				A08F68E01FA2249C00A0BACE /* GlobalmpactViewController.swift in Sources */,
-				A08F68D41FA223CD00A0BACE /* CreativityViewController.swift in Sources */,
-				A0ABE86C1FC32A6E00FC240E /* Accessable.swift in Sources */,
-				A08F68D81FA2242E00A0BACE /* DataAndInformationViewController.swift in Sources */,
-				A08F68DA1FA2245F00A0BACE /* AlgorithmsViewController.swift in Sources */,
-				A08F68D61FA223EE00A0BACE /* AbstractionViewController.swift in Sources */,
+				A0B3130B1FE17CCF00EAEE27 /* Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08F68BB1FA2223800A0BACE /* PrestonStepp_CSPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08F68C61FA2223800A0BACE /* PrestonStepp_CSPUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,25 +284,6 @@
 			targetProxy = A08F68C21FA2223800A0BACE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A08F68A91FA2223800A0BACE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A08F68AA1FA2223800A0BACE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A08F68AF1FA2223800A0BACE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A08F68C81FA2223800A0BACE /* Debug */ = {
