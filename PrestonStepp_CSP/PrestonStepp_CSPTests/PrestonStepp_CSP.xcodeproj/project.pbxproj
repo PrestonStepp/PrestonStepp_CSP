@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0B313061FE17CCF00EAEE27 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = A0B312FD1FE17CCE00EAEE27 /* Controller */; };
-		A0B313071FE17CCF00EAEE27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0B312FE1FE17CCE00EAEE27 /* Info.plist */; };
-		A0B313081FE17CCF00EAEE27 /* PrestonStepp_CSPTests in Resources */ = {isa = PBXBuildFile; fileRef = A0B312FF1FE17CCE00EAEE27 /* PrestonStepp_CSPTests */; };
 		A0B313091FE17CCF00EAEE27 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = A0B313001FE17CCE00EAEE27 /* StarField.sks */; };
-		A0B3130A1FE17CCF00EAEE27 /* PrestonStepp_CSP in Resources */ = {isa = PBXBuildFile; fileRef = A0B313011FE17CCE00EAEE27 /* PrestonStepp_CSP */; };
 		A0B3130B1FE17CCF00EAEE27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B313021FE17CCF00EAEE27 /* Utilities.swift */; };
-		A0B3130C1FE17CCF00EAEE27 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A0B313031FE17CCF00EAEE27 /* Model */; };
-		A0B3130D1FE17CCF00EAEE27 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = A0B313041FE17CCF00EAEE27 /* GameController */; };
-		A0B3130E1FE17CCF00EAEE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B313051FE17CCF00EAEE27 /* Assets.xcassets */; };
 		A0FFE4401FCF0B2C000B1BE7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,15 +33,23 @@
 		A08F68A21FA2223800A0BACE /* PrestonStepp_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrestonStepp_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08F68B61FA2223800A0BACE /* PrestonStepp_CSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B312FD1FE17CCE00EAEE27 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controller; path = ../Controller; sourceTree = "<group>"; };
-		A0B312FE1FE17CCE00EAEE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		A0B312FF1FE17CCE00EAEE27 /* PrestonStepp_CSPTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PrestonStepp_CSPTests; sourceTree = "<group>"; };
-		A0B313001FE17CCE00EAEE27 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = StarField.sks; path = ../StarField.sks; sourceTree = "<group>"; };
-		A0B313011FE17CCE00EAEE27 /* PrestonStepp_CSP */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PrestonStepp_CSP; path = ../PrestonStepp_CSP; sourceTree = "<group>"; };
-		A0B313021FE17CCF00EAEE27 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../Utilities.swift; sourceTree = "<group>"; };
-		A0B313031FE17CCF00EAEE27 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../Model; sourceTree = "<group>"; };
-		A0B313041FE17CCF00EAEE27 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameController; path = ../GameController; sourceTree = "<group>"; };
-		A0B313051FE17CCF00EAEE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		A0B313001FE17CCE00EAEE27 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		A0B313021FE17CCF00EAEE27 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A0B313111FE182C500EAEE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0B313121FE182C500EAEE27 /* GlobalmpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactViewController.swift; sourceTree = "<group>"; };
+		A0B313131FE182C500EAEE27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0B313141FE182C500EAEE27 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		A0B313151FE182C500EAEE27 /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
+		A0B313161FE182C500EAEE27 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		A0B313171FE182C500EAEE27 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		A0B313181FE182C500EAEE27 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
+		A0B313191FE182C500EAEE27 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		A0B3131A1FE182C500EAEE27 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A0B3131B1FE182C500EAEE27 /* DawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawingView.swift; sourceTree = "<group>"; };
+		A0B3131C1FE182C500EAEE27 /* TheInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetViewController.swift; sourceTree = "<group>"; };
+		A0B3131D1FE182C500EAEE27 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		A0B3131F1FE1830D00EAEE27 /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
+		A0B313221FE1832B00EAEE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../PrestonStepp_CSP/View/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -81,15 +82,7 @@
 		A08F68991FA2223800A0BACE = {
 			isa = PBXGroup;
 			children = (
-				A0B313051FE17CCF00EAEE27 /* Assets.xcassets */,
-				A0B312FD1FE17CCE00EAEE27 /* Controller */,
-				A0B313041FE17CCF00EAEE27 /* GameController */,
-				A0B312FE1FE17CCE00EAEE27 /* Info.plist */,
-				A0B313031FE17CCF00EAEE27 /* Model */,
-				A0B313011FE17CCE00EAEE27 /* PrestonStepp_CSP */,
-				A0B312FF1FE17CCE00EAEE27 /* PrestonStepp_CSPTests */,
-				A0B313001FE17CCE00EAEE27 /* StarField.sks */,
-				A0B313021FE17CCF00EAEE27 /* Utilities.swift */,
+				A0B313101FE182B100EAEE27 /* Controller */,
 				A08F68A31FA2223800A0BACE /* Products */,
 				A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */,
 			);
@@ -103,6 +96,54 @@
 				A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B313101FE182B100EAEE27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0B3131D1FE182C500EAEE27 /* AbstractionViewController.swift */,
+				A0B313181FE182C500EAEE27 /* AlgorithmsViewController.swift */,
+				A0B313111FE182C500EAEE27 /* AppDelegate.swift */,
+				A0B313161FE182C500EAEE27 /* CreativityViewController.swift */,
+				A0B313151FE182C500EAEE27 /* DataAndInformationViewController.swift */,
+				A0B3131F1FE1830D00EAEE27 /* Accessable.swift */,
+				A0B3131E1FE182E400EAEE27 /* GameController */,
+				A0B313121FE182C500EAEE27 /* GlobalmpactViewController.swift */,
+				A0B313141FE182C500EAEE27 /* ProgrammingViewController.swift */,
+				A0B3131C1FE182C500EAEE27 /* TheInternetViewController.swift */,
+				A0B313131FE182C500EAEE27 /* ViewController.swift */,
+				A0B313241FE1857200EAEE27 /* Resources */,
+				A0B313231FE1855D00EAEE27 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0B3131E1FE182E400EAEE27 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				A0B3131A1FE182C500EAEE27 /* GameScene.swift */,
+				A0B313191FE182C500EAEE27 /* LevelCompleteScene.swift */,
+				A0B313171FE182C500EAEE27 /* StartScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		A0B313231FE1855D00EAEE27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0B3131B1FE182C500EAEE27 /* DawingView.swift */,
+				A0B313001FE17CCE00EAEE27 /* StarField.sks */,
+				A0B313211FE1832B00EAEE27 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0B313241FE1857200EAEE27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0B313021FE17CCF00EAEE27 /* Utilities.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */ = {
@@ -220,14 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B3130C1FE17CCF00EAEE27 /* Model in Resources */,
-				A0B3130A1FE17CCF00EAEE27 /* PrestonStepp_CSP in Resources */,
-				A0B313061FE17CCF00EAEE27 /* Controller in Resources */,
-				A0B3130E1FE17CCF00EAEE27 /* Assets.xcassets in Resources */,
-				A0B313081FE17CCF00EAEE27 /* PrestonStepp_CSPTests in Resources */,
-				A0B3130D1FE17CCF00EAEE27 /* GameController in Resources */,
 				A0B313091FE17CCF00EAEE27 /* StarField.sks in Resources */,
-				A0B313071FE17CCF00EAEE27 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +318,17 @@
 			targetProxy = A08F68C21FA2223800A0BACE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0B313211FE1832B00EAEE27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B313221FE1832B00EAEE27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A08F68C81FA2223800A0BACE /* Debug */ = {
@@ -398,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PrestonStepp_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PrestonStepp_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.PrestonStepp-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";

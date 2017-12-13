@@ -36,7 +36,8 @@ public class StartScene : SKScene
             let gameOverScene = GameScene(size: size)
             gameOverScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 1.0)
-            view?.presentScene(gameOerene, transition: transitionType)
+            view?.presentScene(gameOverScene, transition: transitionType)
         }
+        
     }
 }
