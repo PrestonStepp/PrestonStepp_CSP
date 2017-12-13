@@ -30,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01159101FE1893D000BB491 /* Invader.swift */ = {isa = PBXFileReference; path = Invader.swift; sourceTree = "<group>"; };
+		A01159111FE1893D000BB491 /* InvaderLaser.swift */ = {isa = PBXFileReference; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		A01159121FE1893D000BB491 /* Player.swift */ = {isa = PBXFileReference; path = Player.swift; sourceTree = "<group>"; };
+		A01159131FE1893D000BB491 /* PlayerLaser.swift */ = {isa = PBXFileReference; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		A01159141FE1893D000BB491 /* Projectile.swift */ = {isa = PBXFileReference; path = Projectile.swift; sourceTree = "<group>"; };
 		A08F68A21FA2223800A0BACE /* PrestonStepp_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrestonStepp_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08F68B61FA2223800A0BACE /* PrestonStepp_CSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08F68C11FA2223800A0BACE /* PrestonStepp_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonStepp_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +55,11 @@
 		A0B3131D1FE182C500EAEE27 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		A0B3131F1FE1830D00EAEE27 /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
 		A0B313221FE1832B00EAEE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../PrestonStepp_CSP/View/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D2E9481FE189090068F725 /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		A0D2E9491FE189090068F725 /* InvaderLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		A0D2E94A1FE189090068F725 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A0D2E94B1FE189090068F725 /* PlayerLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		A0D2E94C1FE189090068F725 /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 		A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -79,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01159151FE1893D000BB491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A01159101FE1893D000BB491 /* Invader.swift */,
+				A01159111FE1893D000BB491 /* InvaderLaser.swift */,
+				A01159121FE1893D000BB491 /* Player.swift */,
+				A01159131FE1893D000BB491 /* PlayerLaser.swift */,
+				A01159141FE1893D000BB491 /* Projectile.swift */,
+			);
+			name = Model;
+			path = /Users/pste9009/Documents/PrestonStepp_CSP/PrestonStepp_CSP/PrestonStepp_CSPTests/Controller/Model;
+			sourceTree = "<absolute>";
+		};
 		A08F68991FA2223800A0BACE = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +136,7 @@
 				A0B3131C1FE182C500EAEE27 /* TheInternetViewController.swift */,
 				A0B313131FE182C500EAEE27 /* ViewController.swift */,
 				A0B313241FE1857200EAEE27 /* Resources */,
+				A01159151FE1893D000BB491 /* Model */,
 				A0B313231FE1855D00EAEE27 /* View */,
 			);
 			path = Controller;
@@ -146,9 +170,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		A0D2E94D1FE189090068F725 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2E9481FE189090068F725 /* Invader.swift */,
+				A0D2E9491FE189090068F725 /* InvaderLaser.swift */,
+				A0D2E94A1FE189090068F725 /* Player.swift */,
+				A0D2E94B1FE189090068F725 /* PlayerLaser.swift */,
+				A0D2E94C1FE189090068F725 /* Projectile.swift */,
+			);
+			name = Model;
+			path = /Users/pste9009/Documents/PrestonStepp_CSP/PrestonStepp_CSP/PrestonStepp_CSPTests/Model;
+			sourceTree = "<absolute>";
+		};
 		A0FFE43E1FCF0B2B000B1BE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0D2E94D1FE189090068F725 /* Model */,
 				A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */,
 			);
 			name = Frameworks;

@@ -2,10 +2,22 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:"
-      name = "Resources">
+      location = "group:/Users/pste9009/Documents/PrestonStepp_CSP/PrestonStepp_CSP/PrestonStepp_CSPTests/Controller/View/Model"
+      name = "Model">
       <FileRef
-         location = "group:../Utilities.swift">
+         location = "group:Invader.swift">
+      </FileRef>
+      <FileRef
+         location = "group:InvaderLaser.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Player.swift">
+      </FileRef>
+      <FileRef
+         location = "group:PlayerLaser.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Projectile.swift">
       </FileRef>
    </Group>
    <FileRef
