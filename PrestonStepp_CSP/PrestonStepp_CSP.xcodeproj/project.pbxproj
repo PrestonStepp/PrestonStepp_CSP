@@ -23,6 +23,7 @@
 		A08F68E01FA2249C00A0BACE /* GlobalmpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */; };
 		A0ABE86C1FC32A6E00FC240E /* Accessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABE86B1FC32A6E00FC240E /* Accessable.swift */; };
 		A0AF45311FD9A70400FA024D /* DawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AF45301FD9A70400FA024D /* DawingView.swift */; };
+		A0B618ED1FE1765A00D73857 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = A0B618EC1FE1765A00D73857 /* GameController */; };
 		A0FFE4401FCF0B2C000B1BE7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactViewController.swift; sourceTree = "<group>"; };
 		A0ABE86B1FC32A6E00FC240E /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
 		A0AF45301FD9A70400FA024D /* DawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawingView.swift; sourceTree = "<group>"; };
+		A0B618EC1FE1765A00D73857 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
+		A0B618EE1FE1778700D73857 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = /Users/pste9009/Documents/PrestonStepp_CSP/PrestonStepp_CSPTests/Sounds; sourceTree = "<absolute>"; };
 		A0FFE43F1FCF0B2C000B1BE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -95,6 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A02C62351FE177FB009E2C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A08F68A91FA2223800A0BACE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A054C54D1FE174580007A88E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0B618EC1FE1765A00D73857 /* GameController */,
+				A08F68A51FA2223800A0BACE /* AppDelegate.swift */,
+				A08F68A71FA2223800A0BACE /* ViewController.swift */,
+				A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */,
+				A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */,
+				A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */,
+				A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */,
+				A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */,
+				A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */,
+				A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */,
+				A0AF45301FD9A70400FA024D /* DawingView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		A08F68991FA2223800A0BACE = {
 			isa = PBXGroup;
 			children = (
@@ -119,21 +148,12 @@
 		A08F68A41FA2223800A0BACE /* PrestonStepp_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				A054C54D1FE174580007A88E /* Controller */,
 				A0ABE86A1FC329E700FC240E /* Model */,
-				A08F68A51FA2223800A0BACE /* AppDelegate.swift */,
-				A08F68A71FA2223800A0BACE /* ViewController.swift */,
-				A08F68A91FA2223800A0BACE /* Main.storyboard */,
+				A02C62351FE177FB009E2C52 /* View */,
 				A08F68AC1FA2223800A0BACE /* Assets.xcassets */,
 				A08F68AE1FA2223800A0BACE /* LaunchScreen.storyboard */,
 				A08F68B11FA2223800A0BACE /* Info.plist */,
-				A08F68D31FA223CD00A0BACE /* CreativityViewController.swift */,
-				A08F68D51FA223EE00A0BACE /* AbstractionViewController.swift */,
-				A08F68D71FA2242E00A0BACE /* DataAndInformationViewController.swift */,
-				A08F68D91FA2245F00A0BACE /* AlgorithmsViewController.swift */,
-				A08F68DB1FA2246C00A0BACE /* ProgrammingViewController.swift */,
-				A08F68DD1FA2248600A0BACE /* TheInternetViewController.swift */,
-				A08F68DF1FA2249C00A0BACE /* GlobalmpactViewController.swift */,
-				A0AF45301FD9A70400FA024D /* DawingView.swift */,
 			);
 			path = PrestonStepp_CSP;
 			sourceTree = "<group>";
@@ -143,6 +163,7 @@
 			children = (
 				A08F68BA1FA2223800A0BACE /* PrestonStepp_CSPTests.swift */,
 				A08F68BC1FA2223800A0BACE /* Info.plist */,
+				A0B618EE1FE1778700D73857 /* Sounds */,
 			);
 			path = PrestonStepp_CSPTests;
 			sourceTree = "<group>";
@@ -279,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B618ED1FE1765A00D73857 /* GameController in Resources */,
 				A08F68B01FA2223800A0BACE /* LaunchScreen.storyboard in Resources */,
 				A08F68AD1FA2223800A0BACE /* Assets.xcassets in Resources */,
 				A08F68AB1FA2223800A0BACE /* Main.storyboard in Resources */,
