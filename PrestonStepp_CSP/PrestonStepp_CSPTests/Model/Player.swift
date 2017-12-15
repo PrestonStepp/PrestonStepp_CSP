@@ -92,7 +92,7 @@ public class Player: SKSpriteNode
             canFire = false
             let bullet = PlayerLaser(imageName: "laser", bulletSound: "laser sound.mp3")
             bullet.position.x = self.position.x
-            bullet.position.y = lf.position.y + self.size.height/2
+            bullet.position.y = if.position.y + self.size.height/2
             scene.addChild(bullet)
             let moveBulletAction = SKAction.move(to:CGPoint(x:self.position.x,y:scene.size.height + bullet.size.height), duration: 1.0)
             let removeBulletAction = SKAction.removeFromParent()
