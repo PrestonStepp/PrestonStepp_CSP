@@ -56,7 +56,14 @@ public class Player: SKSpriteNode
     
     private func animate() -> Void
     {
+        var playerTextures:[SKTexture] = []
+        for i in 1...3
+        {
+            playerTextures.append(SKTexture(imageNamed: "x wing\(i)"))
+        }
         
+        let playerAnimation = SKAction.repeatForever( SKAction.animate(with: playerTextures, timePerFrame: 0.2))
+        self.run(playerAnimation)
     }
     
     public func die () -> Void
